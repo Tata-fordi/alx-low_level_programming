@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  *print_numbers - checks for the digits in range
+  *print_numbers- checks for the digits in range
   *
   *Return: Always 0 (success)
   */
@@ -10,7 +10,7 @@ void print_numbers(void)
 
 	for (c = 48; c < 58; c++)
 	{
-	_putchar(c);
+	putchar(c);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
